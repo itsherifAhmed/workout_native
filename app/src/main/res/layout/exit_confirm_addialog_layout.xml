@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/layout_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12dp">
+    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="left" android:id="@+id/progressDialogHeadingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:text="@string/confirm" android:fontFamily="@font/roboto_black"/>
+    <TextView android:textSize="15dp" android:textColor="#a6a6a6" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:text="@string/do_you_really_want_to_quit_the_workout" android:fontFamily="@font/robotomedium"/>
+    <TextView android:textSize="15dp" android:textColor="#a6a6a6" android:layout_gravity="left" android:id="@+id/quit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:text="@string/do_you_really_want_to_quit_the_workout" android:fontFamily="@font/robotomedium"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layoutContainer_dialog" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp"/>
+    <LinearLayout android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.75">
+            <Button android:layout_gravity="left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="No" android:layout_centerInParent="true" android:fontFamily="@font/robotomedium" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.25">
+            <Button android:textSize="14sp" android:textColor="#b4bcc0" android:layout_gravity="left" android:id="@+id/btnNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/continue_exitdialog" android:maxLines="1" android:layout_centerInParent="true" android:fontFamily="@font/robotomedium" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <Button android:textSize="14sp" android:textColor="@color/colorAccent" android:layout_gravity="left" android:id="@+id/btnYes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="@string/quit" android:layout_centerInParent="true" android:fontFamily="@font/robotomedium" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

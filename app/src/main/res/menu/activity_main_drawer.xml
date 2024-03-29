@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/trainingplan"
+            android:icon="@drawable/active_training_plan"
+            android:title="@string/training_plan" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/meals_plan"
+            android:icon="@drawable/meal_plan"
+            android:title="@string/meals_plan" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/reminder"
+            android:icon="@drawable/reminder"
+            android:title="@string/reminder" />
+    </group>
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/calculate"
+            android:icon="@drawable/bmi"
+            android:title="@string/bmi_calculator" />
+    </group>
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share"
+            android:title="@string/share" />
+    </group>
+    <group
+        android:id="@+id/group6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/rateus"
+            android:title="@string/rateus" />
+    </group>
+
+
+    <item
+        android:id="@+id/restartprogress"
+        android:icon="@drawable/restart_progress"
+        android:title="@string/restart_progress" />
+</menu>

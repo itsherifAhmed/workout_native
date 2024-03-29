@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/training"
+        android:checked="true"
+        android:icon="@mipmap/ic_workout"
+        android:title="@string/tab1"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/calculator"
+        android:checked="false"
+        android:icon="@mipmap/ic_bmi_cal"
+        android:title="Calculator"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/meal_plan"
+        android:checked="false"
+        android:icon="@mipmap/ic_diet_plan"
+        android:title="Diet Plan"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/profile"
+        android:checked="false"
+        android:icon="@mipmap/ic_profile"
+        android:title="Me"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

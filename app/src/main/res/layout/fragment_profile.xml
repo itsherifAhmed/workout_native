@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/mtoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/a1_grad"
+                android:gravity="center"
+                android:minHeight="55dp"
+                android:theme="@style/myToolbarTheme"
+                >
+
+                <TextView
+                    android:id="@+id/mtoolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/roboto_black"
+                    android:gravity="center"
+                    android:text="Me"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt20sp" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/mrgn_5"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appBarLayout"
+            android:layout_marginBottom="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/gothic"
+                    android:text="ACCOUNT  :-"
+                    android:textColor="@color/primary1"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/myprofile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@mipmap/user"
+                    android:drawablePadding="30dp"
+                    android:gravity="start|center"
+                    android:text="My Profile"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:typeface="monospace" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/gothic"
+                    android:text="WORKOUT  :-"
+                    android:textColor="@color/primary1"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/reminder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@mipmap/reminder"
+                    android:typeface="monospace"
+                    android:drawablePadding="30dp"
+                    android:gravity="start|center"
+                    android:text="Remind Me To WorkOut"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/sound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/mrgn10"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:id="@+id/sound_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/mrgn_5"
+                        android:background="@mipmap/sound" />
+
+                    <TextView
+                        android:id="@+id/sound_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toRightOf="@+id/sound_image"
+                        android:text="@string/sound"
+                        android:typeface="monospace"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt16" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/sound_switch"
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/my_btn_toggle"
+
+                        android:checked="true"
+                        android:paddingRight="@dimen/padright_3"
+                        android:thumb="@null"
+                        app:track="@null" />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rlCountdowntimer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/mrgn10"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:id="@+id/ivCountdownTimer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/mrgn_5"
+                        android:background="@mipmap/countdown_time" />
+
+                    <TextView
+                        android:id="@+id/tvCountdownTimer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:lines="2"
+                        android:layout_toRightOf="@+id/ivCountdownTimer"
+                        android:typeface="monospace"
+                        android:text="Countdown\n 10 time"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt16" />
+
+                    <com.travijuu.numberpicker.library.NumberPicker
+                        android:id="@+id/countdownNumberPicker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rlResttimer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/mrgn10"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:id="@+id/ivRestTimer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/mrgn_5"
+
+                        android:background="@mipmap/restart" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toRightOf="@+id/ivRestTimer"
+                        android:typeface="monospace"
+                        android:text="@string/rest_time_str"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt16" />
+
+                    <com.travijuu.numberpicker.library.NumberPicker
+                        android:id="@+id/restTimeNumberPicker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        app:min="3" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/gothic"
+                    android:text="GENERAL SETTING  :-"
+                    android:textColor="@color/primary1"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/reset"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@mipmap/restart"
+                    android:drawablePadding="30dp"
+                    android:typeface="monospace"
+                    android:gravity="start|center"
+                    android:text="Reset Progress"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/gothic"
+                    android:text="SUPPORT US  :-"
+                    android:textColor="@color/primary1"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/rateus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@mipmap/rateus"
+                    android:drawablePadding="30dp"
+                    android:gravity="start|center"
+                    android:text="Rate us"
+                    android:typeface="monospace"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/share"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@mipmap/sharemenu"
+                    android:drawablePadding="30dp"
+                    android:gravity="start|center"
+                    android:text="Share App"
+                    android:typeface="monospace"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/privacypolicy"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="30dp"
+                    android:text="  Privacy policy  "
+                    android:background="@drawable/corner1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>>
+
+
+</FrameLayout>

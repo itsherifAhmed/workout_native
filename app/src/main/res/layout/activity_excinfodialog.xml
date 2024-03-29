@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/mrgn20"
+        android:background="@drawable/corner1">
+
+        <TextView
+            android:id="@+id/dialogexcName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto_black"
+            android:gravity="center"
+            android:text="Pushups"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialogexcName"
+            android:scrollbars="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <kr.pe.burt.android.lib.faimageview.FAImageView
+                    android:id="@+id/animation_exDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp" />
+
+                <TextView
+                    android:id="@+id/description_exDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/animation_exDetail"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/robotomedium"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="15dp"
+                    android:text="DONKEY KICKS RIGHT\10Start on all fours with your knees under butt. Then lift your right leg and squeeze your butt as much as you can."
+                    android:textColor="#a6a6a6"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

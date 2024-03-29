@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#8c000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/shape" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgn20" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mrgnleft7" android:layout_marginTop="@dimen/mrgnbtm30" android:layout_marginRight="@dimen/mrgnright5" android:layout_marginBottom="@dimen/mrgnbtm30" android:weightSum="3.5">
+            <TextView android:textSize="@dimen/txt20sp" android:textStyle="normal" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/gender" android:layout_weight="0.9"/>
+            <RadioGroup android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2.4">
+                <RadioButton android:textSize="@dimen/txt16" android:textStyle="normal" android:textColor="@color/black" android:id="@+id/male" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:text="@string/male" android:layout_weight="1.1"/>
+                <RadioButton android:textSize="@dimen/txt16" android:textStyle="normal" android:textColor="@color/black" android:id="@+id/female" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="false" android:text="@string/female" android:layout_weight="1.35"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mrgnright5" android:layout_marginRight="@dimen/mrgnright5" android:layout_marginBottom="@dimen/mrgnbottom40" android:weightSum="5" android:layout_below="@+id/ll1">
+            <TextView android:textSize="@dimen/txt20sp" android:textStyle="normal" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/age" android:layout_weight="1.2"/>
+            <TextView android:textSize="@dimen/txt20sp" android:textStyle="normal" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.4"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:weightSum="2" android:layout_weight="3">
+                <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="@dimen/txt20sp" android:textStyle="normal" android:textColor="@color/black" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/year" android:layout_weight="0.25"/>
+                    <EditText android:textSize="@dimen/txt20sp" android:textColor="#000000" android:gravity="center" android:id="@+id/year" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLength="3" android:layout_weight="0.5" android:inputType="number"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="@dimen/txt16" android:textStyle="normal" android:textColor="@color/black" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/month" android:layout_weight="0.4"/>
+                    <EditText android:textSize="@dimen/txt20sp" android:textColor="#000000" android:gravity="center" android:id="@+id/month" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLength="2" android:layout_weight="0.5" android:inputType="number"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mrgnright5" android:layout_marginRight="@dimen/mrgnright5" android:layout_marginBottom="@dimen/mrgnbottom40" android:weightSum="5" android:layout_below="@+id/ll2">
+            <TextView android:textSize="@dimen/txt20sp" android:textStyle="normal" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/height" android:layout_weight="1.5"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:weightSum="2" android:layout_weight="3.25">
+                <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="@dimen/txt16" android:textStyle="normal" android:textColor="@color/black" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ft" android:layout_weight="0.35"/>
+                    <EditText android:textSize="@dimen/txt20sp" android:textColor="#000000" android:gravity="center" android:id="@+id/feet" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLength="1" android:layout_weight="0.5" android:inputType="number"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="@dimen/txt16" android:textStyle="normal" android:textColor="@color/black" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/in" android:layout_weight="0.3"/>
+                    <EditText android:textSize="@dimen/txt20sp" android:textColor="#000000" android:gravity="center" android:id="@+id/inches" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLength="2" android:layout_weight="0.5" android:inputType="number"/>
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mrgnright5" android:layout_marginRight="@dimen/mrgnright5" android:layout_marginBottom="@dimen/mrgnbottom40" android:weightSum="5" android:layout_below="@+id/ll3">
+            <TextView android:textSize="@dimen/txt20sp" android:textStyle="normal" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/weight" android:layout_weight="1.5"/>
+            <EditText android:textSize="@dimen/txt20sp" android:textColor="#000000" android:gravity="center" android:id="@+id/weight" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLength="3" android:layout_weight="1.25" android:inputType="number"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:weightSum="2">
+                    <RadioGroup android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <RadioButton android:textSize="@dimen/txt16" android:textStyle="normal" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/kg" android:layout_width="wrap_content" android:layout_height="match_parent" android:checked="true" android:text="@string/kg" android:layout_weight="1"/>
+                        <RadioButton android:textSize="@dimen/txt16" android:textStyle="normal" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@+id/lbs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/lb" android:layout_weight="1"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgnright5" android:layout_below="@+id/ll4">
+            <Button android:textStyle="normal" android:textColor="@color/white" android:id="@+id/calculate" android:background="@drawable/shape_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/mrgn10" android:text="@string/calculate" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:textAllCaps="false"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

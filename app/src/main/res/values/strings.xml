@@ -1,0 +1,330 @@
+<resources>
+    <string name="app_name">Abs Workout For Women</string>
+
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="google_baner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="g_inr">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="g_native">ca-app-pub-3940256099942544/2247696110</string>
+
+
+
+    <string name="Almonds">Almonds</string>
+    <string name="Amlajuice">Amla juice</string>
+    <string name="Applewatermelonpapayastrawberry">Apple, watermelon, papaya, strawberry</string>
+    <string name="BoiledvegetablesSpinachbeanscabbagetomato">Boiled vegetables(Spinach, beans, cabbage, tomato)</string>
+    <string name="Brownbread">Brown bread</string>
+    <string name="Brownbreadvegsandwich">Brown bread veg sandwich</string>
+    <string name="Carrotcucumbercabbagetomatobeansspinachlettuce">Carrot, cucumber, cabbage, tomato, beans, spinach, lettuce</string>
+    <string name="Chickenbreasts">Chicken breasts</string>
+    <string name="Chickensoup">Chicken soup</string>
+    <string name="Cornflakeswithskimmedmilk">Corn flakes with skimmed milk</string>
+    <string name="Dairyproducts">DAIRY PRODUCTS</string>
+    <string name="Drinks">DRINKS</string>
+    <string name="Eggs">Eggs</string>
+    <string name="FishTunaorsalmon">Fish-Tuna or salmon</string>
+    <string name="Fruits">FRUITS</string>
+    <string name="Fruitsalad">Fruit salad</string>
+    <string name="Grapes">Grapes</string>
+    <string name="Greentea">Green tea</string>
+    <string name="LeanBeef">Lean Beef</string>
+    <string name="Lemon">Lemon</string>
+    <string name="Lemonjuice">Lemon juice</string>
+    <string name="Meat">MEAT</string>
+    <string name="Mushroom">Mushroom</string>
+    <string name="Oatmealcookies">Oatmeal cookies</string>
+    <string name="Oats">Oats</string>
+    <string name="Oatswithskimmedmilk">Oats with skimmed milk</string>
+    <string name="Pasta">Pasta</string>
+    <string name="Pineappleorgrapes">Pineapple or grapes</string>
+    <string name="Pineappleslices">Pineapple slices</string>
+    <string name="Pineappleslicesorgrapes">Pineapple slices or grapes</string>
+    <string name="Redrice">Red rice</string>
+    <string name="Redricewithleafygreenspinachbroccoli">Red rice with leafy greens(spinach + broccoli)</string>
+    <string name="Redricewithmushroom">Red rice with mushroom</string>
+    <string name="RedricewithsteamcookedLeanbeef">Red rice with steam cooked Lean beef</string>
+    <string name="Redricewithsteamcookedchickenbreasts">Red rice with steam cooked chicken breasts</string>
+    <string name="Redricewithsteamcookedtuna">Red rice with steam cooked tuna</string>
+    <string name="Ricecerealsandnuts">RICE, CEREALS &amp; NUTS</string>
+    <string name="Skimmedmilk">Skimmed milk</string>
+    <string name="Snacks">SNACKS</string>
+    <string name="Steamcookedleanbeef">Steam cooked lean beef</string>
+    <string name="Tomatosoup">Tomato soup</string>
+    <string name="Vegetables">VEGETABLES</string>
+    <string name="VegetablesaladCarrotcucumbercabbagelettuce">Vegetable salad(Carrot, cucumber, cabbage, lettuce)</string>
+    <string name="Vegetablesoup">Vegetable soup</string>
+    <string name="Walnuts">Walnuts</string>
+    <string name="Wheatforwraps">Wheat for wraps</string>
+    <string name="WholewheatchickenwrapChickenbreastslettucetomatoyogurtsauce">Whole wheat chicken wrap(Chicken breasts + lettuce + tomato + yogurt sauce)</string>
+    <string name="WholewheatfishwrapSteamcookedtunalettucetomatoyogurtsauce">Whole wheat fish wrap(Steam cooked tuna + lettuce + tomato + yogurt sauce)</string>
+    <string name="Wholewheatpastawithbroccoli">Whole wheat pasta with broccoli</string>
+    <string name="Wholewheatpastawithsteamcookedsalmon">Whole wheat pasta with steam cooked salmon</string>
+    <string name="Wholewheatpastawithveggies">Whole wheat pasta with veggies</string>
+    <string name="WholewheatvegetablewrapTomatoonioncucumberspinachcheese">Whole wheat vegetable wrap(Tomato + onion + cucumber + spinach + cheese)</string>
+
+
+    <string name="abvavgheight">Above Average Height</string>
+    <string name="age">Age</string>
+    <string name="agerange">Age should be in range 5-100 years</string>
+    <string name="alternater_heeltouch">alternate heel touch</string>
+
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="avgheight">Average Height</string>
+    <string name="basic_crunches">basic crunches</string>
+    <string name="belowaveraheheight">Below Average Height</string>
+    <string name="bench_dips">bench dips</string>
+
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="bmikgm">BMI (KG/M²)</string>
+    <string name="boat_pose">boat Pose</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="burpees">burpees</string>
+    <string name="calculate">Calculate</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="completed">Completed</string>
+    <string name="completedworkout">You have completed 30 days workouts, To achieve consistency, repeat the exercise from day one.</string>
+
+    <string name="confirm">Confirm!</string>
+    <string name="continue_exitdialog">CONTINUE</string>
+    <string name="no">No</string>
+    <string name="cornflakes">corn flakes</string>
+    <string name="criss_cross">criss cross</string>
+    <string name="cycles">cycles</string>
+    <string name="day">Day</string>
+    <string name="day1">Day 1</string>
+    <string name="dayleft">days left</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="default_notification_channel_name">30-Day workout</string>
+
+    <string name="dinner">Dinner</string>
+    <string name="do_you_really_want_to_quit_the_workout">Do you really want to quit the workout?</string>
+    <string name="extlongheight">Extra Long Height</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="feetrange">Feet should be in range 2-7</string>
+    <string name="female">Female</string>
+    <string name="fields">Please fill all the fields</string>
+
+    <string name="fivealmonds">5 almonds</string>
+    <string name="fiveoatmealcookies">5 oatmeal cookies</string>
+    <string name="fivewalnuts">5 Walnuts</string>
+
+    <string name="fourWalnuts">4 Walnuts</string>
+    <string name="fourboiledeggwhites">4 boiled egg whites</string>
+    <string name="fouroatmealcookies">4 oatmeal cookies</string>
+    <string name="fourslicesofpineapple">4 slices of pineapple</string>
+    <string name="ft">ft</string>
+
+    <string name="gender">Gender</string>
+
+    <string name="greekyogurt">Greek yogurt</string>
+    <string name="greenteapowder">Green tea powder</string>
+    <string name="height">Height</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="high_knees">high knees</string>
+    <string name="honey">honey</string>
+    <string name="in">in</string>
+    <string name="inchrange">Inches should be in range 0-12</string>
+    <string name="jackknife_situps">jackknife situps</string>
+    <string name="jump_squats">jump squats</string>
+    <string name="jumping_jacks">jumping jack</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="leafygreenssoupbroccolispinachlettuce">leafy greens soup(broccoli + spinach + lettuce)</string>
+    <string name="leg_raise">leg raise</string>
+    <string name="leg_up_crunches">leg up crunches</string>
+    <string name="lunch">Lunch</string>
+    <string name="lunge">lunge</string>
+    <string name="male">Male</string>
+    <string name="meal_plan">Meal Plan</string>
+    <string name="meals_plan">Meals Plan</string>
+    <string name="month">mth</string>
+    <string name="monthrange">Months should be in range 0-12</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="ok">Ok</string>
+    <string name="onecupofgreentea">1 cup of green tea</string>
+    <string name="oneglassofamlajuice">1 glass of amla juice</string>
+    <string name="oneglassoflemonjuicewithhoney">1 glass of lemon juice with honey</string>
+    <string name="onescrambledegg">1 scrambled egg</string>
+    <string name="pasta">Pasta</string>
+
+
+    <string name="plank_with_leg_lift">plank_with_leg_lift</string>
+    <string name="plankups">plank Ups</string>
+    <string name="plzwatchvideo">Please watch video to unlock workout</string>
+    <string name="push_through">push Through</string>
+    <string name="pushups">pushups</string>
+    <string name="quit">QUIT</string>
+    <string name="quit1">Never lose hope! You are just one step away!</string>
+    <string name="quit2">Keep trying until it is done!</string>
+    <string name="quit3">Believe in yourself to make it happen!</string>
+    <string name="quit4">Never give in and keep going!</string>
+    <string name="quit5">All you need is the will to succeed! So don’t give up!</string>
+    <string name="rateus">Rate us</string>
+    <string name="reminder">Reminder</string>
+    <string name="repeatworkout">Would you like to repeat this workout?</string>
+    <string name="rest_time_str">Rest time</string>
+    <string name="restart_progress">Restart progress</string>
+    <string name="restartdiloguemessage">Would you like to restart your progress?</string>
+    <string name="restday">Rest Day</string>
+    <string name="resttime">Resttime</string>
+
+    <string name="reverse_plankkicks">reverse plankkicks</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="save">SAVE</string>
+    <string name="search_menu_title">Search</string>
+    <string name="seconds">seconds</string>
+    <string name="set">Set</string>
+    <string name="set_your_preferable_exercise_time">Set Your preferable exercise time</string>
+    <string name="seventimes">*7 times</string>
+    <string name="share">Share</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="sixalmonds">6 almonds</string>
+    <string name="sixwalnuts">6 Walnuts</string>
+    <string name="snack">Snack</string>
+    <string name="sound">Sound</string>
+    <string name="squats">squats</string>
+    <string name="standarddiet">Standard Diet</string>
+    <string name="start">start</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="steamcookedchickenbreasts">steam cooked chicken breasts</string>
+    <string name="tab1">Workout</string>
+    <string name="threePineappleslicesorgrapes">3 Pineapple slices or grapes</string>
+    <string name="threeboiledeggwhites">3 boiled egg whites</string>
+    <string name="threeslicesofpineapple">3 slices of pineapple</string>
+    <string name="timer_fref_file_name">com.fitnessch19.womenabsworkout</string>
+    <string name="tooshortheight">Too Short Height</string>
+    <string name="training_plan">Training Plan</string>
+    <string name="tweleve">*12 eggs</string>
+    <string name="twelevetimes">*12 times</string>
+    <string name="twoboiledeggwhites">2 boiled egg whites</string>
+    <string name="twoscrambledeggs">2 scrambled eggs</string>
+    <string name="twotimes">*2 times</string>
+    <string name="v_crunches">v crunches</string>
+    <string name="vegeteriandiet">Vegetarian Diet</string>
+    <string name="vertical_leg_crunches">vertical leg crunches</string>
+    <string name="veryshortheight">Very Short Height</string>
+    <string name="weight">Weight</string>
+    <string name="weightrange">Weight should be in range 5-130 Kg</string>
+    <string name="weightrangelb">Weight should be in range 11-286 lb</string>
+    <string name="wide_pushups">wide armpushups</string>
+    <string name="year">yr</string>
+
+
+
+
+<!--    arm_workout-->
+
+    <string name="punches">punches</string>
+    <string name="pushup_low_hold">pushup low hold</string>
+    <string name="rate_5_stars">Rate 5-Stars</string>
+    <string name="ready_to_go">READY TO GO</string>
+    <string name="repeat">Repeat</string>
+    <string name="select">Select</string>
+    <string name="skip">SKIP</string>
+    <string name="skip_the_rope">skip the rope</string>
+    <string name="so_share_the_app">So share the app.</string>
+    <string name="start_exercise">Start Exercise</string>
+    <string name="startworking">And start working out in your Home.</string>
+    <string name="sun">Sunday</string>
+    <string name="thanks_for_using_this_app_n_would_you_like_to_try_more">Thanks for using this app</string>
+    <string name="thri">Thrusday</string>
+    <string name="tip">Tip</string>
+    <string name="try_these_also">Try out our new apps</string>
+    <string name="tu">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="mon">Monday</string>
+    <string name="fri">Friday</string>
+    <string name="sat">Saturday</string>
+
+    <string name="unlock">Unlock !</string>
+    <string name="wall_pushups">wall pushups</string>
+    <string name="wide_arm_pushups">wide arm pushups</string>
+    <string name="workoutof">Workout of</string>
+    <string name="workouttime">Hey! it\'s Workout time</string>
+    <string name="yes">Yes</string>
+    <string name="you_have_completed_today_s_workout">You have completed today\'s workout</string>
+    <string name="you_need_to_take_rest">You need to take rest</string>
+    <string name="your_friends_healthy_too">your friends healthy too.</string>
+
+
+
+
+
+
+
+<!--    Abs_workout-->
+
+    <string name="reverse_crunch">reverse crunch</string>
+    <string name="reverse_crunches">reverse crunches</string>
+    <string name="reverse_crunches_desc">Lie down on your back and bend your knees Now, bring your knees towards your head, by keeping your hands on your head.</string>
+    <string name="reverse_crunches_descip">Aim for 8-12 crunches per set A low-moderate rep scheme will offer just enough of a challenge when you are first starting out For best results make an effort to perform each crunch with proper form and a full range of motion Your abs will thank you for it! Feel free to pick a higher or lower number to suit your individual fitness level Its okay if you dont get the same number of reps every set You might be able to complete 12 crunches while youre fresh but only grind out 8 by the time you reach your final set.</string>
+    <string name="roll_up">roll up</string>
+    <string name="roll_up_desc">Lie face up with legs extended knees together feet flexed arms overhead Take a big inhale As you exhale, lift arms up and forward and use your abs to slowly roll up to a sitting position, Squeezing abs again slowly lower down to starting position.</string>
+    <string name="russian_twist">russian twist</string>
+    <string name="russian_twist_desc">Sit on the mat by bending your knees Slightly lean back with feet above the ground and clasp your hands Twist your arms to the left and right.</string>
+    <string name="congrats">Congratulations !</string>
+    <string name="countdown_timer">Countdown timer</string>
+    <string name="cross_arm_crunches">cross arm crunches</string>
+    <string name="cross_arm_crunches_desc">Lie down by bending your knees Keep your arms crossed on your chest Raise your upper body and return to the initial position Repeat it.</string>
+    <string name="cross_body_mountain_climber">cross body mountain climber</string>
+    <string name="cross_body_mountain_climber_desc">Get into a push-up position and make your hands are slightly wider than shoulder-width apart Your body should form a straight line from the feet to your head Tighten your core and maintain the contraction the entire time Bring one knee toward the opposite elbow, Return to the starting position to repeat on the other side.</string>
+    <string name="side_leg_rise_left">side leg rise left</string>
+    <string name="side_leg_rise_left_desc">Start by lying on your side with the head resting on the right arm Now lift your left leg and then come back to the initial position Repeat it.</string>
+    <string name="side_leg_rise_right">side leg rise right</string>
+    <string name="side_leg_rise_right_desc">Start by lying on your side with the head resting on the left arm Now lift your right leg and then come back to the initial position Repeat it.</string>
+    <string name="side_plank_hip_lift_left">side plank hip lift left</string>
+    <string name="side_plank_hip_lift_right">side plank hip lift right</string>
+    <string name="v_sits">v sits</string>
+    <string name="windshield_wipers">windshield wipers</string>
+    <string name="trunk_rotation">trunk rotation</string>
+    <string name="trunk_rotation_desc">Initially stand by keeping your feet few inches wide Now, slightly bend your knees and raise your arms by bending your elbows, Move your body to the left and to the right Repeat this.</string>
+    <string name="clapping_crunches">clapping crunches</string>
+    <string name="clapping_crunches_desc">Lie down on the ground Raise your upper body and bend your knees Now, clap under the knees, by lifting the legs alternatively.</string>
+    <string name="swimming_and_superman">swimming and superman</string>
+    <string name="swimming_and_superman_desc">Lie down with your face downwards, by stretching your hands forward Raise your opposite arm and leg alternatively.</string>
+    <string name="butt_bridge">butt bridge</string>
+    <string name="butt_bridge_desc">Start by lying on your back, Bend your legs Take the support of your hands on the side, and lift the butt up then bring it down Repeat it.</string>
+    <string name="dead_bug">dead bug</string>
+    <string name="dead_bug_desc">Start by lying with your back on the ground Raise your knees and make it perpendicuar to the ground Stretch your arms pointing towards the ceiling Now stretch your right arm towards your head and lower your left leg Return back to the starting position Repeat it on the other side.</string>
+    <string name="long_arm_crunches">long arm crunches</string>
+    <string name="long_arm_crunches_desc">Lie down with your knees bent Stretch your arms towards your head Raise your upper body to a 30 degree angle Return back to the initial position Repeat this.</string>
+    <string name="reclined_oblique_twist">reclined oblique twist</string>
+    <string name="reclined_oblique_twist_desc">Lie down on your back Raise your upper body with your elbows on the side for support Raise your left leg and reach the ankle using your right hand Return back to the initial position and repeat the same on the other side.</string>
+    <string name="standing_bicycle">standing bicycle</string>
+    <string name="standing_bicycle_desc">Stand with your feet few inches apart Raise your right knee towards your left elbow Return back to the initial position Repeat the same on the other side.</string>
+    <string name="bent_leg_twist">bent leg twist</string>
+    <string name="bent_leg_twist_desc">Lie down on your back, with your arms stretched to the side Raise your legs and bend your knees at 90 degree angle, Now twist your knees to the left, Stay in this position for 1-2 minutes Return to the initial position and do the same on the right side.</string>
+    <string name="leg_drops">leg drops</string>
+    <string name="leg_drops_desc">Start by lying with your back on the ground Keep your hands on the side and lift both your legs to a 90 degree angle Feel the pressure on your abs Now slightly lower your legs and return back Repeat this.</string>
+    <string name="mountain_climber">mountain climber</string>
+    <string name="mountain_climber_desc">Initially be in the push-up position By keeping the left leg straight, bend your right knee Now, move to the initial position and repeat the same on the other leg Let the switching between the sides be fast.</string>
+    <string name="flutter_kicks">flutter kicks</string>
+    <string name="flutter_kicks_desc">Start by lying on your back, Keep your arms on the side and lift your legs Let the legs be as straight as possible Now, quickly raise your right leg and at the same time lower your left leg Then do the same on the other leg Repeat it.</string>
+    <string name="plank">plank</string>
+    <string name="plank_desc">Be on your toes and forearms with your body straight Stay in this position for as long as possible.</string>
+    <string name="bicycle_crunches">bicycle crunches</string>
+    <string name="bicycle_crunches_desc">Lie down by keeping your hand, on the back of your head Lift your right knee and stretch your left elbow towards it Repeat the same for the other side.</string>
+    <string name="Side_plank_hip_lift_left_desc">Lay on your left side stacking your hips and feet, Position your bottom left elbow directly under your left shoulder Lift your bottom hip off the ground to create a straight line in a plank Reach your top hand towards the ceiling Now lower the bottom hip down towards the floor and lift the hip back up.</string>
+    <string name="Side_plank_hip_lift_right_desc">Lay on your RIGHT side stacking your hips and feet Position your bottom RIGHT elbow directly under your RIGHT shoulder, Lift your bottom hip off the ground to create a straight line in a plank Reach your top hand towards the ceiling Now lower the bottom hip down towards the floor and lift the hip back up .</string>
+    <string name="V_sits_desc">Sit erect on your mat with your legs stretched out in front of you Lean back Breathe out and lift your legs such that they are at 45-degree angles with the floor Straighten your knees, Straighten and lift your toes to the eye level, Ensure you are sitting on your buttocks and tailbone Now, raise your arms and stretch them out such that they are parallel to the floor as well as to each othe Make sure your lower abdomen is firm but not thick and hard Breathe out and come to initial position,Repeat 6-8 times.</string>
+    <string name="Windshield_wipers_desc">Lie down on the floor and raise your legs 90 degrees Spread your arms straight out to your sides for support Rotate your legs to one side stopping short of touching the floor Repeat on other side.</string>
+    <string name="seconds_text">seconds</string>
+    <string name="cycles_text">cycles</string>
+
+
+</resources>
