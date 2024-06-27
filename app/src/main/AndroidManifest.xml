@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.fitnessch19.womenabsworkout">
+    package="com.sherif.womenabsworkoutsecit">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -12,10 +12,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
-
     <application
-        android:name="com.fitnessch19.womenabsworkout.utils.AbsWomenApplication"
+        android:name="com.sherif.womenabsworkoutsecit.utils.AbsWomenApplication"
         android:allowBackup="false"
+        android:exported="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
@@ -25,83 +25,93 @@
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
 
-
         <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob_app_id"/>
 
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.SplashActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.SplashActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.After_Main_Activity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.Start_Activity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
 
+        <!-- Add android:exported attribute to other activities similarly -->
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.UserDetailsActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.After_Main_Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.Activity_MyProfile"
+            android:name="com.sherif.womenabsworkoutsecit.activities.Start_Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.MainActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.UserDetailsActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.DayActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.Activity_MyProfile"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.RestDayActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.CompletionExcActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.DayActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.ExcDetailsActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.RestDayActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.meals.MealsMainActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.CompletionExcActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.MainExcerciseActivity"
+            android:name="com.sherif.womenabsworkoutsecit.activities.ExcDetailsActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
         <activity
-            android:name="com.fitnessch19.womenabsworkout.activities.CalculateActivity"
+            android:name="com.sherif.womenabsworkoutsecit.meals.MealsMainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name="com.sherif.womenabsworkoutsecit.activities.MainExcerciseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name="com.sherif.womenabsworkoutsecit.activities.CalculateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="false" />
 
         <receiver
-            android:name="com.fitnessch19.womenabsworkout.DailyBrodcast"
+            android:name="com.sherif.womenabsworkoutsecit.DailyBrodcast"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
-
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
@@ -110,7 +120,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.fitnessch19.womenabsworkout.receiver.NotificationReceiver"
+            android:name="com.sherif.womenabsworkoutsecit.receiver.NotificationReceiver"
             android:enabled="true"
             android:exported="true" />
 
@@ -118,11 +128,9 @@
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@mipmap/logo" />
 
-
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
@@ -132,29 +140,26 @@
             android:value="@string/default_notification_channel_id" />
 
         <service
-            android:name="com.fitnessch19.womenabsworkout.fcm.MyFirebaseMessagingService"
+            android:name="com.sherif.womenabsworkoutsecit.fcm.MyFirebaseMessagingService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="com.fitnessch19.womenabsworkout.fcm.MyFirebaseInstanceIDService">
+        <service android:name="com.sherif.womenabsworkoutsecit.fcm.MyFirebaseInstanceIDService"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name="com.fitnessch19.womenabsworkout.fcm.MyJobService"
+            android:name="com.sherif.womenabsworkoutsecit.fcm.MyJobService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
             </intent-filter>
         </service>
-
-
-
-
 
         <service
             android:name="com.google.firebase.messaging.FirebaseMessagingService"
@@ -191,10 +196,6 @@
             </intent-filter>
         </receiver>
 
-
-
-
-
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true"
@@ -218,9 +219,6 @@
             android:enabled="true"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-
-
-
 
     </application>
 

@@ -2,11 +2,11 @@
     <string name="app_name">Abs Workout For Women</string>
 
 
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_app_id">ca-app-pub-7003776536682589~2084984426</string>
 
-    <string name="google_baner">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="g_inr">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="g_native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="google_baner">ca-app-pub-7003776536682589/6112392175</string>
+    <string name="g_inr">ca-app-pub-7003776536682589/1123256548</string>
+    <string name="g_native">ca-app-pub-7003776536682589/3926332091</string>
 
 
 
@@ -206,7 +206,7 @@
     <string name="threePineappleslicesorgrapes">3 Pineapple slices or grapes</string>
     <string name="threeboiledeggwhites">3 boiled egg whites</string>
     <string name="threeslicesofpineapple">3 slices of pineapple</string>
-    <string name="timer_fref_file_name">com.fitnessch19.womenabsworkout</string>
+    <string name="timer_fref_file_name">com.sherif.womenabsworkout</string>
     <string name="tooshortheight">Too Short Height</string>
     <string name="training_plan">Training Plan</string>
     <string name="tweleve">*12 eggs</string>

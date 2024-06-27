@@ -1,4 +1,4 @@
-package com.fitnessch19.womenabsworkout;
+package com.sherif.womenabsworkoutsecit;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.fitnessch19.womenabsworkout", appContext.getPackageName());
+        assertEquals("com.sherif.womenabsworkout", appContext.getPackageName());
     }
 }
